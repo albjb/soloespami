@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon id="plugin.video.albjb" name="[COLOR blue]Soloes[/COLOR][COLOR gold]paMi[/COLOR]" version="2.2.0" provider-name="albjb">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>SoloespaMi</summary>
+		<description>Peliculas que deberias ver una vez en la vida en la mayor calidad (Español)</description>
+		<summary lang="en">SoloespaMi</summary>
+		<description lang="en">Movies that you should see once in your life in the highest quality (Spanish)</description>
+		<summary lang="es">SoloespaMi</summary>
+		<description lang="es">Peliculas que deberias ver una vez en la vida en la mayor calidad (Español)</description>
+		<disclaimer> El septimo arte es gratis</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<!--<screenshot>pelis.png</screenshot>-->
+		</assets>
+		<news></news>
+		<forum>@albjb</forum>
+	</extension>
+</addon>
+
+<addon id="repository.albjb" name="SoloespaMi">
+	<extension point="xbmc.addon.repository" name="SoloespaMi">
+		<info compressed="false">https://github.com/albjb/soloespami.git/</info>
+		<datadir zip="true">https://github.com/albjb/soloespami.git/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>SoloespaMi</summary>
+		<description>Instalación </description>
+		<disclaimer> </disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
